@@ -37,14 +37,14 @@ const
         let hour = today.getHours();
 
         if(hour < 12){
-            document.body.style.backgroundImage = 'url("../img/morning.jpg")';
+            document.body.style.backgroundImage = 'url("./img/morning.jpg")';
             greeting.textContent = 'Good Morning';
         }else if (hour < 18){
-            document.body.style.backgroundImage = 'url("../img/afternoon.jpg")';
+            document.body.style.backgroundImage = 'url("./img/afternoon.jpg")';
             greeting.textContent = 'Good Afternoon';
         }
         else {
-            document.body.style.backgroundImage = 'url("../img/night.jpg")';
+            document.body.style.backgroundImage = 'url("./img/night.jpg")';
             greeting.textContent = 'Good Evening';
 
             //Turn the colorr of everything white so We can see the text
